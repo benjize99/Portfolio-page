@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Abrefah Benjamin | Software Developer Portfolio</title>
+ <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="./img/IMG_29211.jpg" type="image/x-icon">
+  <link rel="apple-touch-icon" href="./img/apple-touch-icon.png">
+  <meta name="description" content="Portfolio of Abrefah Benjamin, a software developer specializing in modern web and mobile applications. Explore my projects, skills, and contact information." />
+  <meta name="keywords" content="Abrefah Benjamin, software developer, portfolio, web development, mobile applications, React, Node.js, Python" />
+  <meta name="author" content="Abrefah Benjamin" />
+  <link rel="canonical" href="https://abrefahbenjamin.com/" />
+</head>
+<body>
+  <!-- Custom Cursor -->
+  <div class="mousecursor"></div>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="container">
+      <div class="logo">Abrefah Benjamin</div>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section with Image -->
+  <section id="hero">
+    <div class="hero-img-wrapper">
+      <div class="hero-img-circle">
+        <img src="./img/IMG_29211.jpg" alt="Abrefah Benjamin photo">
+      </div>
+    </div>
+    <div class="container">
+      <div class="child-container">
+    <span class="fixed-text">Hello,</span>
+    <span class="typing-wrapper">
+      <span class="typing-text" id="typing"></span>
+      <span class="cursor"></span>
+      </div>
+      <p>A passionate Software Developer crafting modern web and mobile applications.</p>
+      <a href="#projects" class="btn" >See My Work<span class="bounce-arrow">↓</span></a>     
+    </div>
+  
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I'm a software developer with 6+ years of experience building scalable and user-friendly applications. I specialize in JavaScript, React, Node.js, and Python. I enjoy turning complex problems into simple, beautiful, and intuitive solutions.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <div class="skill">JavaScript</div>
+        <div class="skill">React</div>
+        <div class="skill">Node.js</div>
+        <div class="skill">Python</div>
+        <div class="skill">Django</div>
+        <div class="skill">REST APIs</div>
+        <div class="skill">SQL & NoSQL</div>
+        <div class="skill">Git & GitHub</div>
+        <div class="skill">Docker</div>
+        <div class="skill">AWS</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="./img/https_dev-to-uploads.s3.amazonaws.com_uploads_articles_r4js31zzmoudei834bx1.webp" alt="Age calculator app interface showing input fields for date month and year with a blue background and a result displaying Your Age is 24 Years 8 Months 24 Days. The design is clean and modern with a calm and professional tone." class="project-image" />
+          <div class="project-content">
+            <h3 class="project-title">Project Alpha</h3>
+            <p class="project-description">An age calculator app using TypeScript involves taking a user's birthdate as input and calculating their current age in years, months, and days. It typically includes input fields for day, month, and year, along with validation to ensure correct date values. The core logic involves using the Date object in JavaScript/TypeScript to perform date calculations.</p>
+            <div class="project-links">
+              <a href="https://github.com/benjize99/age-calculator/tree/main">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="./img/relaxerapp.png" alt="Project Beta" class="project-image" />
+          <div class="project-content">
+            <h3 class="project-title">Project Beta</h3>
+            <p class="project-description">A Web app for breath relaxation. Breath relaxer applications utilize guided breathing exercises to help users manage stress, anxiety, and promote relaxation.</p>
+            <div class="project-links">
+              <a href="https://github.com/benjize99/Breath---Relax-web-app">GitHub</a>
+              <a href="./vid/relaxapp.mp4">Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="./img/images.jpeg" alt="Project Gamma" class="project-image" />
+          <div class="project-content">
+            <h3 class="project-title">Project Gamma</h3>
+            <p class="project-description">An inspirational UI design for a health monitor App. A health monitor app helps users track and understand their health data. These apps can monitor things like heart rate, sleep patterns, and stress levels, providing insights and personalized recommendations for improvement</p>
+            <div class="project-links">
+              <a href="https://github.com/benjize99/Health-Monitor">GitHub</a>
+              <a href="./vid/health-monitor.mp4">Live Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div id="humanFigure">
+      <img src="./img/output-onlinepngtools.png" alt="Human figure" />
+    </div>
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contact-form" action="sendmail.php" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email address" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+        <button type="submit" id="contactButton">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div><a href="https://github.com/benjize99"></a><a href=""></a><a href=""></a></div>
+    <p>© 2025 Abrefah Benjamin. All rights reserved.</p>
+  </footer>
+
+  <!-- Go to Top Button -->
+  <button id="goTopBtn" title="Go to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
+<!-- This is a simple profile page for Abrefah Benjamin, a software developer. It includes sections for the hero image, about, skills, projects, contact form, and footer. The design is responsive and uses modern CSS techniques for styling. -->
